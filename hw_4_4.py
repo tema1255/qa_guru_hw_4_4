@@ -18,9 +18,11 @@ def test_rectangle():
     b = 20
     # TODO сосчитайте периметр
     perimeter = 0
+    perimeter = a + a + b + b
     assert perimeter == 60
     # TODO сосчитайте площадь
     area = 0
+    area = a * b
     assert area == 200
 
 def test_circle():
